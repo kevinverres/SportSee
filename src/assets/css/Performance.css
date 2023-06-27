@@ -1,0 +1,13 @@
+.container-radarchart {
+    width: 300px;
+    height: 263px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #282D30;
+}
+
+@media screen and (max-width:1024px) {
+    .container-radarchart {
+        width: 230px;
+    }
+ }

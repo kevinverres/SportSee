@@ -1,0 +1,16 @@
+.card-data {
+    background-color: #FBFBFB;
+    display: flex;
+    padding: 2.5rem;
+}
+
+.card-data img {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.card-data p {
+    color: #74798C;
+    font-weight: 500;
+}

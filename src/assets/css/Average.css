@@ -1,0 +1,32 @@
+.containerLineChart {
+    width: 258px;
+    height: 263px;
+    background-color: #FF0000;
+    border-radius: 5px;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.title-linechart {
+    color: rgba(255, 255, 255, 0.653);
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.custom-tooltip-average {
+    background-color: white;
+    padding: 4px 7px;
+}
+
+.custom-tooltip-average p {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1024px) {
+   .containerLineChart {
+        width: 240px;
+    }
+}

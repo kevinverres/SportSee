@@ -1,0 +1,44 @@
+.container-piechart {
+    width: 300px;
+    height: 263px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #FBFBFB;
+    position: relative;
+}
+
+.title-piechart {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #20253a;
+    font-weight: 700;
+}
+
+.score-piechart {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #74798c;
+    z-index: 1;
+}
+
+.score-piechart span {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    font-size: 26px;
+}
+@media screen and (max-width:1024px) {
+    .container-piechart {
+        width: 240px;
+    }
+ }
