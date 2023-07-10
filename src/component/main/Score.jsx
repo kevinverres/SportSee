@@ -20,7 +20,7 @@ function Score({ score }) {
         value: 1,
       },
   ];
-  console.log(pieData);
+  // console.log(pieData);
   return (
     <div className="container-piechart">
         <p className="title-piechart">Score</p>

@@ -35,7 +35,7 @@ export const getUserInfos = async (id) => {
             mock: true,
             id: datas.id,
             keyData: datas.keyData,
-            todayScore: datas.todayScore,
+            score: datas.score,
             userInfos: datas.userInfos,
           };
         });
